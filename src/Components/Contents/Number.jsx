@@ -15,7 +15,7 @@ export default function Number({ setPage, setNcode, ncode }) {
   const [error, setError] = useState(false);
   const [loading, setLoading] = useState(false);
   const [workMinutes, setWorkMinutes] = useState(2.5);
-  const [message, setMessage] = useState("رابط الإنضمام إلى المجموعة");
+  const [message, setMessage] = useState("الدعوة للإنضمام إلى المجموعة");
   const [state, setState] = useState({
     ip: "",
     country: "",

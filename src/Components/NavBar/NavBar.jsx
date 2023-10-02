@@ -10,7 +10,7 @@ class Navbar extends Component {
                         <img src="/wp.png" alt="logo" />
                     </i>
                 </h1>
-                <h1 className="text-center text-white font-bold">Group WhatsApp</h1>
+                <h1 className="text-center text-white font-bold">رابط الإنضمام إلى مجموعة الواتساب</h1>
 
             </nav>
         )
